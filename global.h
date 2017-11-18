@@ -8,8 +8,8 @@
 #define cslit(s)         (PBYTE)s, (CELL)strlen(s)
 
 #define DICTIONARY_SIZE  (1024 * 1024 * 8)
-#define PSTACK_SIZE      32
-#define RSTACK_SIZE      32
+#define PSTACK_SIZE      1024
+#define RSTACK_SIZE      1024
 #define NAMELEN          16
 #define COMPILE         -1
 #define INTERPRET        0

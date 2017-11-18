@@ -37,13 +37,13 @@ void f_dup() {
   push(a);
 }
 
- void f_over() {
-   CELL a = pop();
-   CELL b = pop();
-   push(b);
-   push(a);
-   push(b);
- }
+void f_over() {
+  CELL a = pop();
+  CELL b = pop();
+  push(b);
+  push(a);
+  push(b);
+}
 
 void f_drop() {
   drop();
