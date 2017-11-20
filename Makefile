@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Os 
+CFLAGS=-Wall -Os -Wno-format
 LDFLAGS=
 
 OBJ = 	forth.o \
